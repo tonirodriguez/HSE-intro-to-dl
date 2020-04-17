@@ -4,6 +4,7 @@
 readonly
 __pycache__
 *.pyc
+Material/*
 
 # week 2
 tensorboard_logs
@@ -11,11 +12,15 @@ tensorboard_logs
 # week3
 102flowers.tgz
 imagelabels.mat
+week3/*.hdf5
+week3/*.h5
 
 # week4
 lfw-deepfunneled.tgz
 lfw.tgz
 lfw_attributes.txt
+week4/*.hdf5
+week4/*.h5
 
 # week6
 captions_train-val2014.zip
