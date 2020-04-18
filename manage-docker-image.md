@@ -18,6 +18,12 @@ Para generarlo, compartiendo la carpeta con los notebooks y datos con el directo
 docker run -v C:/Users/trodriguez/src/coursera/intro-to-dl:/root/data -it -p 127.0.0.1:8080:8080 --name coursera-aml-1 zimovnov/coursera-aml-docker
 ~~~~
 
+Para el Mac:
+
+~~~~
+docker run -v /Users/development/ml/src/coursera/intro-to-dl:/root/data -it -p 127.0.0.1:8080:8080 --name coursera-aml-1 zimovnov/coursera-aml-docker
+~~~~
+
 
 Hub Docker con instrucciones sobre el container: [https://hub.docker.com/r/zimovnov/coursera-aml-docker/](https://hub.docker.com/r/zimovnov/coursera-aml-docker/)
 
